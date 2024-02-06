@@ -299,8 +299,8 @@ async function processImage(
    */
   const attr_loading = img.attr('loading');
   if (isAboveTheFold) {
-    img.removeAttr('loading');
-    img.attr('fetchpriority', 'high');
+    // img.removeAttr('loading');
+    // img.attr('fetchpriority', 'high');
   } else {
     switch (attr_loading) {
       case undefined:
